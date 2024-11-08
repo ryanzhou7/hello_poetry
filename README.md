@@ -1,4 +1,4 @@
-# Poetry
+# Hello Poetry
 
 Poetry is like npm but for python, it has several features that pip doesn't have, which we will call out with (1), (2), etc.. We first need to install it per the [guide here](https://python-poetry.org/docs/#installing-with-pipx).
 
@@ -13,6 +13,8 @@ First just create a plain python project using poetry, that is `$ poetry new <pr
 Look at the `pyproject.toml` file, it's like a `package.json` file in npm. It has the project name, version, and dependencies.
 
 (2). With poetry, you don't need to create a virtual environment, it creates it for you and "activates it" (not exactly, but just know that you don't need to do it manually).
+
+`$ git checkout project create`
 
 ```python
 # project_name/main.py
