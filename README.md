@@ -22,15 +22,19 @@ That is, you should have this exact code if you followed along exactly
 
 Solution: `$ git checkout project_create`
 
+Now let's add our program
+
 ```python
-# project_name/main.py
+# hello_poetry/main.py
 
 def hello_world():
     return "Hello, world!"
 
 if __name__ == "__main__":
     print(hello_world())
+```
 
+```python
 # tests/test_main.py
 from project_name.main import hello_world
 
