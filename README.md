@@ -14,6 +14,14 @@ Look at the `pyproject.toml` file, it's like a `package.json` file in npm. It ha
 
 (2). With poetry, you don't need to create a virtual environment, it creates it for you and "activates it" (not exactly, but just know that you don't need to do it manually).
 
+The "solution" version of the code will always be available.
+
+To access it, `$ git checkout project_create`
+
+That is, you should have this exact code if you followed along exactly
+
+Solution: `$ git checkout project_create`
+
 ```python
 # project_name/main.py
 
